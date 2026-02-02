@@ -36,5 +36,26 @@ public class Main {
 
         System.out.println("На каждого ученика расчитано " + litstStudent + " листов бумаги");
 
+        byte efficiencyMachine = 16;
+        byte time = 2;
+        int bottleMinute = (efficiencyMachine / time); ///сколько сколько бутылок в минуту
+           System.out.println(bottleMinute);
+        short twentyMinute = 20;
+        int bottleTwentym = (twentyMinute * bottleMinute);
+           System.out.println("За 20 минут машина произвела " + bottleTwentym + " штук бутылок");
+
+        byte oneHour = 60; ///сколько в одном часе минут
+        int bottleHour = (bottleMinute * oneHour); /// сколько бутылок в час
+        byte day = 24; /// сколько в сутках часов
+        int bottleDay = (day * bottleHour);/// сколько бутылок в сутки
+           System.out.println("За сутки машина произвела " + bottleDay + " штук бутылок");
+
+        int threeDaysBottle = (bottleDay*3);
+           System.out.println("За три дня машина произвела " + threeDaysBottle + " штук бутылок");
+
+        byte oneMounth = 31;
+        int bottleMounth = (bottleDay*oneMounth);
+        System.out.println("За один месяц машина произвела " + bottleMounth + " штук бутылок");
+
     }
 }
