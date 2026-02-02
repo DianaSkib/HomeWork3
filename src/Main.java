@@ -57,5 +57,17 @@ public class Main {
         int bottleMounth = (bottleDay*oneMounth);
         System.out.println("За один месяц машина произвела " + bottleMounth + " штук бутылок");
 
+
+        byte whitePot = 2;
+        byte brownPot = 4;
+        byte allPot = 120;
+        int oneClass = (whitePot + brownPot);
+        int allClass = (allPot / oneClass);
+        int whitePaint = (oneClass * whitePot);
+        int brownPaint = (oneClass * brownPot);
+
+        System.out.println("В школе, где " + allClass +  " классов, нужно " + whitePaint + " банок белой краски и " + brownPaint + " банок коричневой краски.");
+
+
     }
 }
