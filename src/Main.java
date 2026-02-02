@@ -25,5 +25,16 @@ public class Main {
         short f = 27897;
         byte g = 67;
 
+        byte studentClass = 3;
+        byte ludmilaPavlovna = 23;
+        byte annaSergeevna = 27;
+        byte ekterinaAndreevna = 30;
+        short paper = 480;
+
+        int totalStudents = (ludmilaPavlovna + annaSergeevna + ekterinaAndreevna);
+        int litstStudent = (paper / totalStudents);
+
+        System.out.println("На каждого ученика расчитано " + litstStudent + " листов бумаги");
+
     }
 }
