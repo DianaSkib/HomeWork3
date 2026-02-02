@@ -17,5 +17,13 @@ public class Main {
         System.out.println("Значение переменной sleepGiraffe" + " с типом float" + " равно " + sleepGiraffe);
         System.out.println("Значение переменной sleepHamsters" + " с типом double" + " равно " + sleepHamsters);
 
+        float a = 27.12f;
+        long b = 987678965549L;
+        float c = 2.786f;
+        short d = 569;
+        short e = -159;
+        short f = 27897;
+        byte g = 67;
+
     }
 }
