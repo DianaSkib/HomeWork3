@@ -63,10 +63,12 @@ public class Main {
         byte allPot = 120;
         int oneClass = (whitePot + brownPot);
         int allClass = (allPot / oneClass);
-        int whitePaint = (oneClass * whitePot);
-        int brownPaint = (oneClass * brownPot);
+        int whitePaint = (allClass * whitePot);
+        int brownPaint = (allClass * brownPot);
 
         System.out.println("В школе, где " + allClass +  " классов, нужно " + whitePaint + " банок белой краски и " + brownPaint + " банок коричневой краски.");
+
+
 
 
     }
