@@ -98,9 +98,19 @@ public class Main {
         System.out.println (breakfastKg + " кг.");
 
 
+        byte extraKg = 7;
+        float max = 0.250f;
+        float min = 0.500f;
 
+        byte minDay = (byte) (extraKg / max);
+        System.out.println(minDay + " дней");
 
+        byte maxDay = (byte) (extraKg / min);
+        System.out.println (maxDay + " дней");
 
+        float average = ((max + min) / 2);
+        float dayAverage = (extraKg/average);
+        System.out.println (dayAverage + " среднее количество дней");
 
     }
 }
